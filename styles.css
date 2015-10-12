@@ -1,0 +1,100 @@
+body{
+  	color: #333333;
+
+}
+
+
+
+
+.lindsey{
+	float: left;
+	padding-top:0.3em;
+	padding-left:1em;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.nav{
+	top: 0px;
+	
+
+}	
+
+
+.nav li{
+	display: inline-block;
+	float: right;
+	padding: 1em;
+	font-size: 1.3em;
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.intro{
+	padding:2em;
+	max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	
+
+}
+
+
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #333333;
+
+}
+
+
+a:hover, a:active {
+    border-bottom: 1px solid #333333;
+    text-color: #333333;
+
+}
+
+
+.active a{
+	border-bottom: 1px solid #333333;
+
+}
+
+
+.about{
+	padding:3em;
+	max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.content h4{
+		font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.content p, li{
+		font-family: 'Cardo', serif;
+		font-size: 1.1em;
+
+}
+
+
+
+
+
+
+
+
+

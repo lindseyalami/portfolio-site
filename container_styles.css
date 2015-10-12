@@ -1,0 +1,91 @@
+body{
+	
+  	color: #333333;
+
+}
+
+.header{
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+.lindsey{
+	display: block;
+	float: left;
+	padding-top:0.3em;
+	padding-left:1em;
+	font-size: 2em;
+	font-weight: 400;
+
+
+}
+
+
+.nav{
+	top: 0px;
+}	
+
+
+.nav li{
+	display: inline-block;
+	float: right;
+	padding: 1em;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.intro{
+	text-align: center;
+	padding-left:8em;
+	padding-right:8em;
+	padding-bottom: 2em;
+	font-size: 1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.thumbnail{
+	margin: 0 auto;
+    justify-content: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover, a:active {
+    border-bottom: 1px solid #333333;
+    text-color: #333333;
+}
+
+.content {
+	padding:2em;
+}
+
+.content h3{
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+
+.content p{
+		font-family: 'Cardo', serif;
+		font-size: 1.2em;
+}
+
+.content li{
+		font-family: 'Cardo', serif;
+}
+
+
+
+
+
+
+
