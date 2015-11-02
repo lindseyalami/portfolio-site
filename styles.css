@@ -1,9 +1,14 @@
 body{
   	color: #333333;
+  	font-family: 'Josefin Sans', sans-serif;
 
 }
 
 
+.about-header{
+	height: 100px;
+
+}
 
 
 .lindsey{
@@ -12,14 +17,12 @@ body{
 	padding-left:1em;
 	font-size: 2em;
 	font-weight: 400;
-	font-family: 'Josefin Sans', sans-serif;
 
 }
 
 
 .nav{
-	top: 0px;
-	
+	top: 0;
 
 }	
 
@@ -36,17 +39,15 @@ body{
 
 
 .intro{
+	top: 50px;
 	padding:2em;
-	max-width: 30em;
-    margin-left: auto;
-    margin-right: auto;
+	max-width: 28em;
+    margin: 0 auto;
     text-align: center;
-	font-size: 1.5em;
-	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 200%;
 	
-
 }
-
 
 
 a:link, a:visited {
@@ -58,7 +59,7 @@ a:link, a:visited {
 
 a:hover, a:active {
     border-bottom: 1px solid #333333;
-    text-color: #333333;
+
 
 }
 
@@ -68,27 +69,243 @@ a:hover, a:active {
 
 }
 
-
 .about{
-	padding:3em;
-	max-width: 50em;
-    margin-left: auto;
-    margin-right: auto;
+
+	font-weight: 400;
+
+
+}
+
+.about img{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	padding: 2em;
+	width: 50%;
+}
+
+.why{
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	padding: 2em;
+	width: 50%;
+	font-size: 1.2em;
 
 }
 
 
-.content h4{
-		font-family: 'Josefin Sans', sans-serif;
+.why h4{
+	text-align: center;
+
+}
+
+
+.why p{
+	line-height: 200%;
 
 }
 
 
 .content p, li{
-		font-family: 'Cardo', serif;
-		font-size: 1.1em;
+	font-family: 'Cardo', serif;
+	font-size: 1.1em;
 
 }
+
+
+.overlay{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	-webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opactiy .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+
+}
+
+
+.overlay > .content{
+	text-align: center;
+	color: white;
+	padding: 10px;
+
+}
+
+
+.thumbnail:hover .overlay{
+    opacity: 0.5;
+    
+}
+
+
+@media screen and (max-width: 750px) {
+
+
+	.about img{
+		width: 100%;
+	}
+
+	.why {
+		width: 100%;
+		top: 500px;
+		background-color: white;
+		opacity: 0.6;
+		color: 000000;
+		font-weight: 700;
+
+	}
+	
+	
+}
+
+@media screen and (max-width: 675px) {
+
+	.nav li {
+		display: none; 
+		margin: 0;
+	}
+	.nav .active {
+		display: block; 
+		text-align: center;
+	}
+
+	.nav li {
+		display: none; 
+		margin: 0;
+	}
+	.nav .active {
+		display: block; 
+		text-align: center;
+	}
+
+	.about img{
+		width: 100%;
+	}
+
+	.why {
+		width: 100%;
+		top: 850px;
+		background-color: white;
+		opacity: 0.6;
+		color: 000000;
+
+	}
+	
+	
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.nav li {
+		display: none; 
+		margin: 0;
+	}
+	.nav .active {
+		display: block; 
+		text-align: center;
+	}
+
+	.about img{
+		width: 100%;
+	}
+
+	.why {
+		width: 100%;
+		top: 750px;
+		background-color: white;
+		opacity: 0.6;
+		color: 000000;
+
+	}
+	
+	
+}
+
+@media screen and (max-width: 550px) {
+
+	.nav li {
+		display: none; 
+		margin: 0;
+	}
+	.nav .active {
+		display: block; 
+		text-align: center;
+	}
+
+	.about img{
+		width: 100%;
+	}
+
+	.why {
+		width: 100%;
+		top: 725px;
+		background-color: white;
+		opacity: 0.6;
+		color: 000000;
+
+	}
+	
+	
+}
+
+@media screen and (max-width: 500px) {
+
+	.nav li {
+		display: none; 
+		margin: 0;
+	}
+	.nav .active {
+		display: block; 
+		text-align: center;
+	}
+
+	.about img{
+		width: 100%;
+	}
+
+	.why {
+		width: 100%;
+		top: 650px;
+		background-color: white;
+		opacity: 0.6;
+		color: 000000;
+
+	}
+	
+	
+}
+@media screen and (max-width: 450px) {
+
+	.nav li {
+		display: none; 
+		margin: 0;
+	}
+	.nav .active {
+		display: block; 
+		text-align: center;
+	}
+
+	.about img{
+		width: 100%;
+	}
+
+	.why {
+		width: 100%;
+		top: 575px;
+		background-color: white;
+		opacity: 0.6;
+		color: 000000;
+
+	}
+	
+	
+}
+
+
 
 
 
